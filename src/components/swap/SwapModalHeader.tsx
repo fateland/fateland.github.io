@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'fateswap-uniswapv2-sdk'
+import { Trade, TradeType } from 'fateswap-sdks'
 import React, { useContext, useMemo } from 'react'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 import { Text } from 'rebass'

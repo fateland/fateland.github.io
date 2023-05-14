@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, ETHER, WETH } from 'fateswap-uniswapv2-sdk'
+import { Currency, currencyEquals, ETHER, WETH } from 'fateswap-sdks'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'

@@ -1,4 +1,4 @@
-import { Trade } from 'fateswap-uniswapv2-sdk'
+import { Trade } from 'fateswap-sdks'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

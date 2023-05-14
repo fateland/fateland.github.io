@@ -1,4 +1,4 @@
-import { Currency } from 'fateswap-uniswapv2-sdk'
+import { Currency } from 'fateswap-sdks'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

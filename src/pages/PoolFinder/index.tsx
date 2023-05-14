@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'fateswap-uniswapv2-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'fateswap-sdks'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

@@ -1,9 +1,9 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'fateswap-uniswapv2-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'fateswap-sdks'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
+export const ROUTER_ADDRESS = '0x78Fc23105E13a1887A6090074ea2DA749BC0cB17'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -17,18 +17,23 @@ export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f57172140
 export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
 export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')
 
+export const HELLO = new Token(ChainId.ZKSYNC_ERA_TESTNET, '0x493C6F810A2E9eBc34E38CE278b2587A9d7c1A9a', 18, 'HELLO', 'hello')
+export const WORLD = new Token(ChainId.ZKSYNC_ERA_TESTNET, '0xfF4f221730D5ef46BC94E3e6a73e14540d92CD1d', 18, 'WORLD', 'world')
+
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
-  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]]
+  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [WETH[ChainId.ZKSYNC_ERA_TESTNET]]
 }
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT, COMP, MKR]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT, COMP, MKR],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [...WETH_ONLY[ChainId.ZKSYNC_ERA_TESTNET], HELLO, WORLD]
 }
 
 /**
@@ -37,20 +42,23 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-    [AMPL.address]: [DAI, WETH[ChainId.MAINNET]]
+    [AMPL.address]: [DAI, WETH[ChainId.MAINNET]],
+    [ChainId.ZKSYNC_ERA_TESTNET]: [...WETH_ONLY[ChainId.ZKSYNC_ERA_TESTNET], HELLO, WORLD]
   }
 }
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT],
+  // [ChainId.ZKSYNC_ERA_TESTNET]: [...WETH_ONLY[ChainId.ZKSYNC_ERA_TESTNET], HELLO, WORLD]
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [...WETH_ONLY[ChainId.ZKSYNC_ERA_TESTNET], HELLO, WORLD]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {

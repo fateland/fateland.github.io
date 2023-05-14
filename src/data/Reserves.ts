@@ -1,4 +1,4 @@
-import { TokenAmount, Pair, Currency } from 'fateswap-uniswapv2-sdk'
+import { TokenAmount, Pair, Currency } from 'fateswap-sdks'
 import { useMemo } from 'react'
 import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'

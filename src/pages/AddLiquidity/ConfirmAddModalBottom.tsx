@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'fateswap-uniswapv2-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'fateswap-sdks'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

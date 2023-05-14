@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI, Pair, Percent, TokenAmount } from 'fateswap-uniswapv2-sdk'
+import { Currency, CurrencyAmount, JSBI, Pair, Percent, TokenAmount } from 'fateswap-sdks'
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { usePair } from '../../data/Reserves'

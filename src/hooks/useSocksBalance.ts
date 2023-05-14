@@ -1,4 +1,4 @@
-import { JSBI } from 'fateswap-uniswapv2-sdk'
+import { JSBI } from 'fateswap-sdks'
 import { useMemo } from 'react'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'
 import { useActiveWeb3React } from './index'

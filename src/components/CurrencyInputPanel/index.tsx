@@ -1,4 +1,4 @@
-import { Currency, Pair } from 'fateswap-uniswapv2-sdk'
+import { Currency, Pair } from 'fateswap-sdks'
 import React, { useState, useContext, useCallback } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { darken } from 'polished'

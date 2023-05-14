@@ -1,4 +1,4 @@
-import { Currency } from 'fateswap-uniswapv2-sdk'
+import { Currency } from 'fateswap-sdks'
 import React, { useCallback, useEffect, useState } from 'react'
 import ReactGA from 'react-ga'
 import useLast from '../../hooks/useLast'

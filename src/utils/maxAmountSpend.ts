@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'fateswap-uniswapv2-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'fateswap-sdks'
 import { MIN_ETH } from '../constants'
 
 /**

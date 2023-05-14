@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'fateswap-uniswapv2-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'fateswap-sdks'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

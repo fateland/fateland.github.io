@@ -1,4 +1,4 @@
-import { Percent } from 'fateswap-uniswapv2-sdk'
+import { Percent } from 'fateswap-sdks'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

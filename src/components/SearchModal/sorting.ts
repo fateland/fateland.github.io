@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'fateswap-uniswapv2-sdk'
+import { Token, TokenAmount } from 'fateswap-sdks'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

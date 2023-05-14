@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'fateswap-uniswapv2-sdk'
+import { Trade, TradeType } from 'fateswap-sdks'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

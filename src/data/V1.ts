@@ -14,7 +14,7 @@ import {
   Trade,
   TradeType,
   WETH
-} from 'fateswap-uniswapv2-sdk'
+} from 'fateswap-sdks'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'
 import { useAllTokens } from '../hooks/Tokens'
