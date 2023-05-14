@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 311 311" enable-background="new 0 0 311 311" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="510.5" y1="330.4099" x2="1010.4999" y2="330.4099">
+		<stop  offset="0" style="stop-color:#E0F3FF"/>
+		<stop  offset="0.4439" style="stop-color:#DDC9FF"/>
+		<stop  offset="0.5969" style="stop-color:#DDC6FF"/>
+		<stop  offset="1" style="stop-color:#FBDBFF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M1010.5,580.4c-166.7,0-333.3,0-500,0c0-166.7,0-333.3,0-500c166.7,0,333.3,0,500,0
+		C1010.5,247.1,1010.5,413.7,1010.5,580.4z M609.5,329.8c-0.1,85.8,69.5,155.5,155.3,155.6c85.8,0.1,155.6-69.4,155.7-155.1
+		c0.1-86-69.5-155.9-155.5-155.9C679.2,174.4,609.6,244,609.5,329.8z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="80.7483" y1="284.9538" x2="233.3153" y2="20.7001">
+		<stop  offset="0" style="stop-color:#E0F3FF"/>
+		<stop  offset="0.4439" style="stop-color:#DDC9FF"/>
+		<stop  offset="0.5969" style="stop-color:#DDC6FF"/>
+		<stop  offset="1" style="stop-color:#FBDBFF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M0,155.4C0.1,69.6,69.7,0,155.5,0c86,0,155.7,69.8,155.5,155.9c-0.1,85.7-69.9,155.2-155.7,155.1
+		C69.5,310.9-0.1,241.1,0,155.4z"/>
+</g>
+</svg>
