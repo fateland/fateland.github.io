@@ -87,7 +87,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'"
+    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -106,6 +107,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "fateswap-sdks": "^0.0.1"
+    "fateswap-sdks": "^0.0.2",
+    "gh-pages": "^5.0.0"
   }
 }
