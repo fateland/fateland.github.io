@@ -7211,10 +7211,10 @@ fast-url-parser@1.1.3:
   dependencies:
     punycode "^1.3.2"
 
-fateswap-sdks@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/fateswap-sdks/-/fateswap-sdks-0.0.2.tgz#53e0e4a2854fafd3fe73d6967d1b497c1ddb4d45"
-  integrity sha512-tXsfGPq1BCn5XUWm2KEeV7E8gP/6i3s+C7q2xRUhAQhRmBa2BrIkgB6FOeIv/lDp493sgQJz59fRXg8XHYk8gg==
+fateswap-sdks@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/fateswap-sdks/-/fateswap-sdks-0.0.4.tgz#2728e06d0546ce963148cb742a7301b1037759dd"
+  integrity sha512-JXzEJvPgLNeDoN0DXLaIUbnRL81AUeJehNrziBDThwAx2W44WLz+iEFWHw3FpaRBlnWLJq+eHADtQhYgweq29w==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

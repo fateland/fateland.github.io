@@ -1,7 +1,7 @@
 {
   "name": "fateswap",
   "description": "fateswap web",
-  "homepage": ".",
+  "homepage": "https://fateland.github.io/fateland.github.io",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
@@ -107,7 +107,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "fateswap-sdks": "^0.0.2",
+    "fateswap-sdks": "^0.0.4",
     "gh-pages": "^5.0.0"
   }
 }
