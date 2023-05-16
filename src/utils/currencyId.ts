@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'fateswap-sdks'
+import { Currency, ETHER, Token } from 'fateswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

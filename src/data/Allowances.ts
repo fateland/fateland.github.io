@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'fateswap-sdks'
+import { Token, TokenAmount } from 'fateswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

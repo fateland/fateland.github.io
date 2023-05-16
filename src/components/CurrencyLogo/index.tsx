@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'fateswap-sdks'
+import { Currency, ETHER, Token } from 'fateswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

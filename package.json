@@ -82,7 +82,7 @@
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
   },
   "scripts": {
-    "start": "set PORT=3004 && react-scripts start",
+    "start": "set PORT=3005 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -107,7 +107,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "fateswap-sdks": "^0.0.4",
+    "fateswap-sdk": "^0.1.0",
     "gh-pages": "^5.0.0"
   }
 }

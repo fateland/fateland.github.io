@@ -1,9 +1,9 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'fateswap-sdks'
+import { ChainId, JSBI, Percent, Token, WETH } from 'fateswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xe936346462753bf046aA4470d02aF51438B5d350'
+export const ROUTER_ADDRESS = '0x58BD93AB20bc3d3A1deE4604f06fC04C9c62fE0e'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -13,12 +13,7 @@ type ChainTokenList = {
 export const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'Dai Stablecoin')
 export const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6, 'USDC', 'USD//C')
 export const USDT = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
-export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f5717214004A7f26888', 18, 'COMP', 'Compound')
-export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
 export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A5d5039A161', 9, 'AMPL', 'Ampleforth')
-
-export const CAT = new Token(ChainId.ZKSYNC_ERA_TESTNET, '0x72A4B5eB096FD5f50b5fdAadaA187a7AEF471fd7', 18, 'CAT', 'cat')
-export const DOG = new Token(ChainId.ZKSYNC_ERA_TESTNET, '0x74d097cB66B079290fFAd55733A276Fb8b49ce12', 18, 'DOG', 'dog')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
@@ -32,7 +27,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT, COMP, MKR]
+  [ChainId.ZKSYNC_ERA_TESTNET]: [...WETH_ONLY[ChainId.ZKSYNC_ERA_TESTNET]]
 }
 
 /**
@@ -48,7 +43,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT]
 }
 
 // used to construct the list of all pairs we consider by default in the frontend

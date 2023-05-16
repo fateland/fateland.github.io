@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from 'fateswap-sdks'
+import { ChainId, Pair, Token } from 'fateswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

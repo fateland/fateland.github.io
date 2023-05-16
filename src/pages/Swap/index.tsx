@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Token, Trade } from 'fateswap-sdks'
+import { CurrencyAmount, JSBI, Token, Trade } from 'fateswap-sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { ArrowDown } from 'react-feather'
 import ReactGA from 'react-ga'

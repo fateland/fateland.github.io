@@ -1,4 +1,4 @@
-import { ChainId } from 'fateswap-sdks'
+import { ChainId } from 'fateswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

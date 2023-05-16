@@ -1,4 +1,4 @@
-import { Token } from 'fateswap-sdks'
+import { Token } from 'fateswap-sdk'
 import { transparentize } from 'polished'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'

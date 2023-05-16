@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'fateswap-sdks'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'fateswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

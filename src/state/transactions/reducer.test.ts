@@ -1,4 +1,4 @@
-import { ChainId } from 'fateswap-sdks'
+import { ChainId } from 'fateswap-sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

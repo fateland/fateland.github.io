@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'fateswap-sdks'
+import { currencyEquals, Trade } from 'fateswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

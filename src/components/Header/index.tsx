@@ -1,4 +1,4 @@
-import { ChainId } from 'fateswap-sdks'
+import { ChainId } from 'fateswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'

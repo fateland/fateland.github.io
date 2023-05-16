@@ -1,4 +1,4 @@
-import { ChainId } from 'fateswap-sdks'
+import { ChainId } from 'fateswap-sdk'
 import { createStore, Store } from 'redux'
 import { addPopup, removePopup, toggleSettingsMenu, toggleWalletModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'
