@@ -2,6 +2,7 @@
   "name": "fateswap",
   "description": "fateswap web",
   "homepage": ".",
+  "homepage1": "https://fateland.github.io/fateland.github.io",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
