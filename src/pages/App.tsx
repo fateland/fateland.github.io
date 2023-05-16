@@ -22,6 +22,8 @@ import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redir
 import Swap from './Swap'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
 
+import '../i18n'
+
 const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;

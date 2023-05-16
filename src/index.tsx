@@ -40,10 +40,10 @@ window.addEventListener('error', error => {
   })
 })
 
-window.addEventListener("unhandledrejection", (event) => {
-  event && event.preventDefault();
-  console.log("event", event);
-});
+window.addEventListener('unhandledrejection', event => {
+  event && event.preventDefault()
+  console.log('event ', event)
+})
 
 function Updaters() {
   return (
