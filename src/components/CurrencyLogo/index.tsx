@@ -7,7 +7,11 @@ import useHttpLocations from '../../hooks/useHttpLocations'
 import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
-const getTokenLogoURL = (address: string) => `https://syncswap.xyz/images/unknown-token.svg`
+const getTokenLogoURL = (address: string) => {
+  return address === '0x20b28B1e4665FFf290650586ad76E977EAb90c5D'
+    ? 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png'
+    : 'https://syncswap.xyz/images/unknown-token.svg'
+}
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
