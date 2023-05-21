@@ -5,7 +5,9 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-// import Logo from '../../assets/svg/logo.svg'
+import Logo from '../../assets/svg/logo-no-background.svg'
+// import Logo from '../../assets/svg/logo-black.svg'
+// import Logo from '../../assets/svg/logo-white.svg'
 // import LogoDark from '../../assets/svg/logo_white.svg'
 // import Wordmark from '../../assets/svg/wordmark.svg'
 // import WordmarkDark from '../../assets/svg/wordmark_white.svg'
@@ -51,15 +53,15 @@ const HeaderElementWrap = styled.div`
 `};
 `
 
-// const Title = styled.a`
-//   display: flex;
-//   align-items: center;
-//   pointer-events: auto;
-//
-//   :hover {
-//     cursor: pointer;
-//   }
-// `
+const Title = styled.a`
+  display: flex;
+  align-items: center;
+  pointer-events: auto;
+
+  :hover {
+    cursor: pointer;
+  }
+`
 
 // const TitleText = styled(Row)`
 //   width: fit-content;
@@ -97,17 +99,17 @@ const NetworkCard = styled(YellowCard)`
   padding: 8px 12px;
 `
 
-// const UniIcon = styled.div`
-//   transition: transform 0.3s ease;
-//   :hover {
-//     transform: rotate(-5deg);
-//   }
-//   ${({ theme }) => theme.mediaWidth.upToSmall`
-//     img {
-//       width: 4.5rem;
-//     }
-//   `};
-// `
+const UniIcon = styled.div`
+  //transition: transform 0.3s ease;
+  //:hover {
+  //  transform: rotate(-5deg);
+  //}
+  ${({ theme }) => theme.mediaWidth.upToSmall`
+    img {
+      width: 4.5rem;
+    }
+  `};
+`
 
 const HeaderControls = styled.div`
   display: flex;
@@ -145,14 +147,14 @@ export default function Header() {
     <HeaderFrame>
       <RowBetween style={{ alignItems: 'flex-start' }} padding="1rem 1rem 0 1rem">
         <HeaderElement>
-          {/*<Title href=".">*/}
-          {/*  <UniIcon>*/}
-          {/*    <img src={isDark ? LogoDark : Logo} alt="logo" />*/}
-          {/*  </UniIcon>*/}
-          {/*  <TitleText>*/}
-          {/*    <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />*/}
-          {/*  </TitleText>*/}
-          {/*</Title>*/}
+          <Title href=".">
+            <UniIcon>
+              <img style={{width: '20%',marginLeft: '30px'}} src={Logo} alt="logo" />
+            </UniIcon>
+            {/*<TitleText>*/}
+            {/*  <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />*/}
+            {/*</TitleText>*/}
+          </Title>
         </HeaderElement>
         <HeaderControls>
           <HeaderElement>
