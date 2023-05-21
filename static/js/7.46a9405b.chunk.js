@@ -1,2 +1,0 @@
-(this.webpackJsonpfateswap=this.webpackJsonpfateswap||[]).push([[7],{632:function(n,t){},633:function(n,t){},659:function(n,t){},660:function(n,t){},666:function(n,t){},718:function(n,t){}}]);
-//# sourceMappingURL=7.46a9405b.chunk.js.map
