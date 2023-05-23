@@ -5,7 +5,7 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo-no-background.svg'
+import Logo from '../../assets/svg/logo-swap.svg'
 // import Logo from '../../assets/svg/logo-black.svg'
 // import Logo from '../../assets/svg/logo-white.svg'
 // import LogoDark from '../../assets/svg/logo_white.svg'
@@ -130,10 +130,6 @@ const BalanceText = styled(Text)`
 
 const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.MAINNET]: null,
-  [ChainId.RINKEBY]: 'Rinkeby',
-  [ChainId.ROPSTEN]: 'Ropsten',
-  [ChainId.GÖRLI]: 'Görli',
-  [ChainId.KOVAN]: 'Kovan',
   [ChainId.ZKSYNC_ERA_TESTNET]: 'ZKSYNC ERA TESTNET'
 }
 
@@ -149,7 +145,7 @@ export default function Header() {
         <HeaderElement>
           <Title href=".">
             <UniIcon>
-              <img style={{width: '20%',marginLeft: '30px'}} src={Logo} alt="logo" />
+              <img style={{width: '15%',marginLeft: '30px'}} src={Logo} alt="logo" />
             </UniIcon>
             {/*<TitleText>*/}
             {/*  <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />*/}
