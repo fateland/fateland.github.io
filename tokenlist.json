@@ -3,23 +3,23 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://syncswap.xyz/images/unknown-token.svg",
   "timestamp": "2023-05-02 00:00:00.000+00:00",
   "tokens": [
     {
       "chainId": 280,
-      "address": "0xA6b8a75150e2f00c07d416910f2586319E6d079e",
-      "name": "a1",
-      "symbol": "A1",
+      "address": "0x6ceDfA8570Ff531F7a0afD9AB250eBAd9082bFbf",
+      "name": "x1",
+      "symbol": "X1",
       "decimals": 18,
       "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
     },{
       "chainId": 280,
-      "address": "0x857D6e4F01137b9cCbA4f620FDD3cB61E99FD58f",
-      "name": "b1",
-      "symbol": "B2",
+      "address": "0x7A0622FE316a914EE2b555bC8A1822681a15c74D",
+      "name": "y1",
+      "symbol": "Y1",
       "decimals": 18,
       "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
     }

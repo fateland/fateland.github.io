@@ -108,7 +108,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "fateswap-sdk": "^0.1.9",
+    "fateswap-sdk": "^0.2.0",
     "gh-pages": "^5.0.0"
   }
 }
