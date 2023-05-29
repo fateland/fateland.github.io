@@ -3,7 +3,7 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://syncswap.xyz/images/unknown-token.svg",
   "timestamp": "2023-05-02 00:00:00.000+00:00",
@@ -22,7 +22,29 @@
       "symbol": "Y1",
       "decimals": 18,
       "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
+    },{
+      "chainId": 280,
+      "address": "0x3e7676937A7E96CFB7616f255b9AD9FF47363D4b",
+      "name": "DAI",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/token-library.appspot.com/o/dai.svg?alt=media&token=1985e3d8-3aa7-4d04-8839-565d4c341615"
+    },{
+      "chainId": 280,
+      "address": "0x0faF6df7054946141266420b43783387A78d82A9",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/token-library.appspot.com/o/usdc.svg?alt=media&token=1985e3d8-3aa7-4d04-8839-565d4c341615"
+    },{
+      "chainId": 280,
+      "address": "0xfcEd12dEbc831D3a84931c63687C395837D42c2B",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
     }
+
 
   ]
 }
