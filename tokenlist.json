@@ -1,28 +1,14 @@
 {
   "name": "fateswap",
   "version": {
-    "major": 1,
+    "major": 2,
     "minor": 0,
     "patch": 0
   },
   "logoURI": "https://syncswap.xyz/images/unknown-token.svg",
   "timestamp": "2023-05-02 00:00:00.000+00:00",
   "tokens": [
-    {
-      "chainId": 280,
-      "address": "0x6ceDfA8570Ff531F7a0afD9AB250eBAd9082bFbf",
-      "name": "x1",
-      "symbol": "X1",
-      "decimals": 18,
-      "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
-    },{
-      "chainId": 280,
-      "address": "0x7A0622FE316a914EE2b555bC8A1822681a15c74D",
-      "name": "y1",
-      "symbol": "Y1",
-      "decimals": 18,
-      "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
-    },{
+   {
       "chainId": 280,
       "address": "0x3e7676937A7E96CFB7616f255b9AD9FF47363D4b",
       "name": "DAI",
