@@ -1,9 +1,9 @@
 {
   "name": "fateswap",
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 0,
-    "patch": 3
+    "patch": 0
   },
   "logoURI": "https://syncswap.xyz/images/unknown-token.svg",
   "timestamp": "2023-05-02 00:00:00.000+00:00",
@@ -28,21 +28,21 @@
       "name": "DAI",
       "symbol": "DAI",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/token-library.appspot.com/o/dai.svg?alt=media&token=1985e3d8-3aa7-4d04-8839-565d4c341615"
+      "logoURI": "https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
     },{
       "chainId": 280,
       "address": "0x0faF6df7054946141266420b43783387A78d82A9",
       "name": "USDC",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/token-library.appspot.com/o/usdc.svg?alt=media&token=1985e3d8-3aa7-4d04-8839-565d4c341615"
+      "logoURI": "https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
     },{
       "chainId": 280,
       "address": "0xfcEd12dEbc831D3a84931c63687C395837D42c2B",
       "name": "USDT",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://syncswap.xyz/images/unknown-token.svg"
+      "logoURI": "https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
     }
 
 

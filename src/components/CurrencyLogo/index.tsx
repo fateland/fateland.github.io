@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'fateswap-sdk'
+import { Currency, ETHER, Token ,WETH, ChainId} from 'fateswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
@@ -7,10 +7,29 @@ import useHttpLocations from '../../hooks/useHttpLocations'
 import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
+import DAILogo from '../../assets/tokens/dai-logo.png'
+import USDCLogo from '../../assets/tokens/usdc-logo.png'
+import USDTLogo from '../../assets/tokens/usdt-logo.png'
+import WETHLogo from '../../assets/tokens/weth-logo.png'
+
+import {DAI,USDT,USDC} from '../../constants/index'
+
 const getTokenLogoURL = (address: string) => {
-  return address === '0x20b28B1e4665FFf290650586ad76E977EAb90c5D'
-    ? 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png'
-    : 'https://syncswap.xyz/images/unknown-token.svg'
+  if(address === DAI.address){
+    return DAILogo;
+  }
+  if(address === USDC.address){
+    return USDCLogo;
+  }
+  if(address === USDT.address){
+    return USDTLogo;
+  }
+  console.log(WETH[ChainId.ZKSYNC_ERA_TESTNET])
+  if(address === WETH[ChainId.ZKSYNC_ERA_TESTNET].address){
+    return WETHLogo;
+  }
+
+  return "https://syncswap.xyz/images/unknown-token.svg";
 }
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
